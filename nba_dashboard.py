@@ -88,7 +88,7 @@ st.write(f"Data for the {season} season.")
 
 # User input for teams
 home_team = st.text_input("Enter the Home Team Name (e.g. Boston Celtics)")
-away_team = st.text_input("Enter the Away Team Name (e.g Toronto Raptors")
+away_team = st.text_input("Enter the Away Team Name (e.g Toronto Raptors)")
 
 if home_team and away_team:
     # Fetch team IDs
